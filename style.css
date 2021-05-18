@@ -1,3 +1,7 @@
+h1{
+    font-size: 50px;
+}
+
 .styleBackground {
     background: url("img/fond.jpg") no-repeat;
     background-position: center;
@@ -31,6 +35,27 @@
     place-items: center;
 }
 
+.buttonChoice {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #0d6efd;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+.buttonChoice:hover {
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
 @media screen and (max-width: 768px) {
     .styleImg {
         width: 70%;
@@ -39,6 +64,6 @@
     .selectChoice{
         width: 90vw;
         height: 30vh;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 }
